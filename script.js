@@ -1,4 +1,4 @@
-const requestURL = 'https://jsonplaceholder.typicode.com/users'
+const requestURL = 'https://jsonplaceholder.typicode.com/users';
 
 function sendRequest(method, url) {
   return new Promise((resolve, reject) => {
